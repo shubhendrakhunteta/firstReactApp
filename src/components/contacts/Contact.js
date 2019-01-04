@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import propTypes from "prop-types";
 // import "./Contact.css";
 
-import { Consumer } from "../context";
+import { Consumer } from "../../context";
 
 class Contact extends Component {
   state = {
