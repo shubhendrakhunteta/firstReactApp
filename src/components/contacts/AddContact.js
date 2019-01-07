@@ -35,9 +35,9 @@ class AddContact extends Component {
 
     const newContact = {
       id: uuid(),
-      name: "",
-      email: "",
-      phone: "",
+      name,
+      email,
+      phone,
       errors: {}
     };
 
@@ -48,6 +48,8 @@ class AddContact extends Component {
       email: "",
       phone: ""
     });
+
+    this.props.history.push("/");
   };
 
   render() {
