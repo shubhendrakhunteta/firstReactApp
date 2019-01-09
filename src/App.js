@@ -7,7 +7,7 @@ import NotFound from "./components/pages/NotFound";
 import About from "./components/pages/About";
 import Test from "./components/test/Test";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import { Provider } from "./context";
 
